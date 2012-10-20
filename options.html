@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stealth Options</title>
+  <script src="options.js"></script>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>
+      <i class="icon-plane"></i>
+      Stealth
+    </h1>
+    <legend>CSS Query Selectors</legend>
+    <label>CSS Query Selectors</label>
+    <input type="text" id="hide_selectors" class="span12" placeholder="Type something…">
+    <span class="help-block">Type CSS Selectors for Hide.(Stealth use CSS)</span>
+    <div class="form-actions">
+      <button class="btn btn-primary btn-block" id="save">Save</button>
+    </div>
+    <div id="status"></div>
+
+    <legend>Query Selectors Example</legend>
+    <div class="well well-large">
+      <dl>
+        <dt><a href="https://whooing.com" target="_blank">Whooing.com</a> Hide Money</dt>
+        <dd><code>.en_money, .disp_money</code></dd>
+      </dl>
+      <dl>
+        <dt><a href="https://facebook.com" target="_blank">Facebook</a> Hide Right Ad Section</dt>
+        <dd><code>#pagelet_ego_pane_w</code></dd>
+      </dl>
+    </div>
+  </div>
+</body>
+</html>
