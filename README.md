@@ -3,6 +3,10 @@ Stealth(Chrome Browser Extension)
 
 Stealth is a simple Chrome Browser Extension for hide web page elements, created and maintained by [seapy](http://twitter.com/seapy)
 
+Install
+-------
+
+[Chrome web store](https://chrome.google.com/webstore/detail/stealth/cgpnflggncohblfimpajnhkkbchccmdd)
 
 Authors
 -------
